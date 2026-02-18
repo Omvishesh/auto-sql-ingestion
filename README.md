@@ -346,21 +346,6 @@ The LLM generates standardized names following: `auto_<domain>_<geo>_<time>_<gra
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Schema validator tests
-python test_schema_validator.py
-
-# Milvus signature tests
-python test_signature_milvus.py
-
-# Run with debug logging
-uvicorn app.main:app --reload --log-level debug
-```
-
----
-
 ## 📋 Logging
 
 All operations are logged to `logs/ingestion.log`:
